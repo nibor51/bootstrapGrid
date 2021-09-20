@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #707070;
+    font-weight: 600;
+}
+.container-fluid {background-color: #C1C1C1;}
+
+.element {
+    background-color: #C1C1C1;
+    padding: 1em;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.element > .row > [class*="col"] > .element {
+    padding: 1em;
+    font-size: inherit;
+    text-align: inherit;
+    background-color: #FFFFFF;
+    border: 1px solid #707070;
+}
